@@ -60,24 +60,9 @@ const Nav = () => {
         className={
           !Nav
             ? "hidden"
-            : "md:hidden absolute top-0 left-0 w-[80%] h-screen bg-[#2e424d] flex flex-col pt-24"
+            : "md:hidden absolute top-0 left-0 w-full h-screen bg-[#2e424d] pt-24"
         }
       >
-        {Menu.map((item) => {
-          return (
-            <ScrollLink
-              key={item.id}
-              to={item.path}
-              smooth={true}
-              duration={500}
-            >
-              <li className="text-sm  font-semibold ml-5 py-3 ">
-                {item.title}
-              </li>
-            </ScrollLink>
-          );
-        })}
-
         <ul className="flex gap-4 ml-5">
           <a href="https://github.com/AbduRazaq-23" target="_blank">
             <li className=" hover:scale-125 ">
