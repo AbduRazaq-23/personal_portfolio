@@ -4,7 +4,7 @@ import spog from "../assets/project/spogmai.png";
 import youtube from "../assets/project/youtube.jpg";
 import insta from "../assets/project/instagram.jpg";
 import finance from "../assets/project/finance.jpg";
-import goFood from "../assets/project/goFood.png";
+import goFood from "../assets/project/gofood.png";
 import book from "../assets/project/book.jpg";
 
 const Project = () => {
