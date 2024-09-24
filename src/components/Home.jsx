@@ -16,7 +16,7 @@ const Home = () => {
           <p className=" md:text-2xl text-[#eaebed]">MERN Stack Developer</p>
         </div>
 
-        <div className=" w-[60%] md:h-[80%]  mx-auto bg-red-400  rotate-3 py-5 rounded-xl md:mt-14 h-100 relative ">
+        <div className=" w-[60%] md:h-[80%]  mx-auto bg-[#98dad9]  rotate-3 py-5 rounded-xl md:mt-14 h-100 relative ">
           <img
             className=" w-full h-full object-cover bg-cyan-400 rounded-xl -rotate-3"
             src={pic}
