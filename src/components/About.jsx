@@ -9,9 +9,7 @@ const About = () => {
             About
           </p>
         </div>
-        <div className="max-w-[1000px] w-full grid grid-cols-2 gap-8">
-          <div></div>
-        </div>
+
         <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4">
           <div className="text-center md:text-start  font-semibold">
             <p>
@@ -26,6 +24,32 @@ const About = () => {
               way to large enterprise corporations. What would you do if you had
               a software expert available at your fingertips?
             </p>
+          </div>
+        </div>
+        {/* education  */}
+        <div className="text-center space-y-10 mt-10 text-gray-300 text-sm font-semibold">
+          <h1 className="  text-xl text-[#98dad9]">Education</h1>
+          <div>
+            <h2>
+              Bacheler of Science in{" "}
+              <span className="text-[#98dad9] font-bold">
+                {" "}
+                Software Engineering{" "}
+              </span>
+            </h2>
+            <h3>[2019 - 2023]</h3>
+            <h4>Islamia College Peshawar</h4>
+          </div>
+          <div>
+            <h2>
+              Diploma of{" "}
+              <span className="text-[#98dad9] font-bold">
+                {" "}
+                Information Technology{" "}
+              </span>
+            </h2>
+            <h3>[2018 - 2019]</h3>
+            <h4>The Nation Hangu</h4>
           </div>
         </div>
       </div>
