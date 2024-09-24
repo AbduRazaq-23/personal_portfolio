@@ -16,13 +16,18 @@ const About = () => {
               Hi. I'm Abdu Razaq, nice to meet you. Please take a look around.
             </p>
           </div>
-          <div>
-            <p className="text-sm font-semibold">
-              I am passionate about building excellent software that improves
-              the lives of those around me. I specialize in creating software
-              for clients ranging from individuals and small-businesses all the
-              way to large enterprise corporations. What would you do if you had
-              a software expert available at your fingertips?
+          <div className="text-sm font-semibold">
+            <p>
+              I am a passionate and dedicated MERN stack developer. My expertise
+              lies in developing efficient, scalable, and user-friendly
+              solutions using MongoDB, Express.js, React.js, and Node.js. I have
+              a strong command of front-end and back-end technologies, with a
+              focus on creating seamless user experiences and robust backend
+              systems.
+            </p>
+            <p>
+              I'm excited to continue learning, growing, and contributing to
+              innovative projects that make a real impact.
             </p>
           </div>
         </div>
@@ -45,7 +50,7 @@ const About = () => {
               Diploma of{" "}
               <span className="text-[#98dad9] font-bold">
                 {" "}
-                Information Technology{" "}
+                Information Technology (DIT)
               </span>
             </h2>
             <h3>[2018 - 2019]</h3>
