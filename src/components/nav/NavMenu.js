@@ -17,11 +17,11 @@ export const Menu = [
   {
     id: "4",
     path: "about",
-    title: "AboutUs",
+    title: "About",
   },
   {
     id: "5",
     path: "contact",
-    title: "ContactUs",
+    title: "Contact",
   },
 ];
