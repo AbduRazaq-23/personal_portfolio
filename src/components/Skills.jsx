@@ -63,7 +63,7 @@ const Skills = () => {
       {/* Container */}
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div className="text-center">
-          <p className="text-2xl font-semibold inline border-b-4 border-pink-600 ">
+          <p className="text-2xl font-semibold inline border-b-4 border-[#98dad9]">
             Skills
           </p>
           <p className="py-4 text-sm font-semibold">

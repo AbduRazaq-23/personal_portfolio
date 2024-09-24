@@ -83,14 +83,14 @@ const Project = () => {
     <div name="experience" className=" w-full py-20 bg-[#2e424d] text-gray-300">
       <div className="max-w-[1000px] mx-auto">
         <div className="text-center mb-10">
-          <h1 className="text-2xl font-semibold inline border-b-4 border-pink-600">
+          <h1 className="text-2xl font-semibold inline border-b-4 border-[#98dad9]">
             Projects
           </h1>
         </div>
 
         {/* frontend title  */}
         <div className="text-center my-5">
-          <h1 className="text-center my-10 font-semibold inline border-b-2 border-pink-600">
+          <h1 className="text-center my-10 font-bold inline text-[#98dad9]">
             Frontend
           </h1>
         </div>
@@ -118,7 +118,7 @@ const Project = () => {
 
         {/* backend   */}
         <div className="text-center my-5">
-          <h1 className="text-center my-10 font-semibold inline border-b-2 border-pink-600">
+          <h1 className="text-center my-10 font-bold inline text-[#98dad9]">
             Backend
           </h1>
         </div>
@@ -146,7 +146,7 @@ const Project = () => {
 
         {/* mern stack  */}
         <div className="text-center my-5">
-          <h1 className="text-center my-10 font-semibold inline border-b-2 border-pink-600">
+          <h1 className="text-center my-10 font-bold text-[#98dad9]">
             MERN Stack
           </h1>
         </div>
