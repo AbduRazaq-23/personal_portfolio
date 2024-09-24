@@ -10,7 +10,7 @@ export const Menu = [
     title: "Skills",
   },
   {
-    id: "2",
+    id: "3",
     path: "experience",
     title: "Experience",
   },
