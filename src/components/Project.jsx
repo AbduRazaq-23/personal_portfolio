@@ -6,7 +6,7 @@ import insta from "../assets/project/instagram.jpg";
 import finance from "../assets/project/finance.jpg";
 import goFood from "../assets/project/gofood.png";
 import book from "../assets/project/book.jpg";
-import ecompic from "../assets/project/ecompic";
+import ecompic from "../assets/project/ecompic.png";
 
 const Project = () => {
   const mernStack = [
