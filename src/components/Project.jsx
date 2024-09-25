@@ -6,6 +6,7 @@ import insta from "../assets/project/instagram.jpg";
 import finance from "../assets/project/finance.jpg";
 import goFood from "../assets/project/gofood.png";
 import book from "../assets/project/book.jpg";
+import ecompic from "../assets/project/ecompic";
 
 const Project = () => {
   const mernStack = [
@@ -46,6 +47,13 @@ const Project = () => {
       img: ecom,
       dLink: "https://e-commerce-frontend-eosin-delta.vercel.app/",
       cLink: "",
+    },
+    {
+      id: 3,
+      name: "E-Commerce UI",
+      img: ecompic,
+      dLink: "https://eccomerece-ruddy.vercel.app/",
+      cLink: "https://github.com/AbduRazaq-23/eccomerece",
     },
   ];
   const backend = [
