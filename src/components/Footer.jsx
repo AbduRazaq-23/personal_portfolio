@@ -10,7 +10,7 @@ const Footer = () => {
       >
         <li className="flex items-center space-x-1">
           <MdLocationPin />
-          <span>Airline Society near UCP Lahore</span>
+          <span>Peshawar</span>
         </li>
         <li className="flex items-center space-x-1">
           <MdPhone />
