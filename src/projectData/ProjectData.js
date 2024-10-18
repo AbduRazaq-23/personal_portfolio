@@ -11,7 +11,7 @@ import ecompic from "../assets/project/ecompic.png";
 import homeAfter from "../assets/project/blogPic/homeAfter.png";
 import blogPage from "../assets/project/blogPic/blogPage.png";
 //sign & signup
-import signIn from "../assets/project/blogPic/signIn.png";
+import signIn from "../assets/project/blogPic/signin.png";
 import signUp from "../assets/project/blogPic/signUp.png";
 
 export const mernStack = [
