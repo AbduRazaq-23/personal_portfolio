@@ -11,7 +11,7 @@ import ecompic from "../assets/project/ecompic.png";
 import homeAfter from "../assets/project/blogPic/homeAfter.png";
 import blogPage from "../assets/project/blogPic/blogPage.png";
 
-import signUp from "../assets/project/blogPic/signUp.png";
+// import signUp from "../assets/project/blogPic/signUp.png";
 
 export const mernStack = [
   {
@@ -45,7 +45,7 @@ export const mernStack = [
     img: homeAfter,
     dLink: "https://mern-blog-two-pied.vercel.app/",
     cLink: "https://github.com/AbduRazaq-23/MERN_Blog",
-    images: [homeAfter, blogPage, signUp],
+    images: [homeAfter, blogPage],
   },
 ];
 export const frontend = [
