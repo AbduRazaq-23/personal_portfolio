@@ -1,92 +1,8 @@
 import React from "react";
-import ecom from "../assets/project/ecommerce.png";
-import spog from "../assets/project/spogmai.png";
-import youtube from "../assets/project/youtube.jpg";
-import insta from "../assets/project/instagram.jpg";
-import finance from "../assets/project/finance.jpg";
-import goFood from "../assets/project/gofood.png";
-import book from "../assets/project/book.jpg";
-import ecompic from "../assets/project/ecompic.png";
+import { Link } from "react-router-dom";
+import { mernStack, backend, frontend } from "../projectData/ProjectData";
 
 const Project = () => {
-  const mernStack = [
-    {
-      id: 1,
-      name: "SpogmaiFoundation",
-      img: spog,
-      dLink: "https://spogmai-foundation.vercel.app/",
-      cLink: "https://github.com/wasimhaider55/spogmaiFoundation",
-    },
-
-    {
-      id: 2,
-      name: "E-Commerce",
-      img: ecom,
-      dLink: "https://e-commerce-frontend-eosin-delta.vercel.app/",
-      cLink: "https://github.com/AbduRazaq-23/E-Commerce_Frontend",
-    },
-    {
-      id: 3,
-      name: "FoodDelivery",
-      img: goFood,
-      dLink: "https://github.com/AbduRazaq-23/MERN-goFood",
-      cLink: "https://github.com/AbduRazaq-23/MERN-goFood",
-    },
-  ];
-  const frontend = [
-    {
-      id: 1,
-      name: "SpogmaiFoundation",
-      img: spog,
-      dLink: "https://spogmai-foundation.vercel.app/",
-      cLink: "https://github.com/wasimhaider55/spogmaiFoundation.git",
-    },
-    {
-      id: 2,
-      name: "E-Commerce",
-      img: ecom,
-      dLink: "https://e-commerce-frontend-eosin-delta.vercel.app/",
-      cLink: "",
-    },
-    {
-      id: 3,
-      name: "E-Commerce UI",
-      img: ecompic,
-      dLink: "https://eccomerece-ruddy.vercel.app/",
-      cLink: "https://github.com/AbduRazaq-23/eccomerece",
-    },
-  ];
-  const backend = [
-    {
-      id: 1,
-      name: "YouTube",
-      img: youtube,
-      dLink: "https://github.com/AbduRazaq-23/YouTubeBackend",
-      cLink: "https://github.com/AbduRazaq-23/YouTubeBackend",
-    },
-    {
-      id: 2,
-      name: "Instagram",
-      img: insta,
-      dLink: "https://github.com/AbduRazaq-23/InstagramBackend",
-      cLink: "https://github.com/AbduRazaq-23/InstagramBackend",
-    },
-    {
-      id: 3,
-      name: "PersonalFinanceTracker",
-      img: finance,
-      dLink: "https://github.com/AbduRazaq-23/personalFinanceTracker",
-      cLink: "https://github.com/AbduRazaq-23/personalFinanceTracker",
-    },
-    {
-      id: 4,
-      name: "BookStore",
-      img: book,
-      dLink: "https://github.com/AbduRazaq-23/bookStore",
-      cLink: "https://github.com/AbduRazaq-23/bookStore",
-    },
-  ];
-
   return (
     <div name="experience" className=" w-full py-20 bg-[#2e424d] text-gray-300">
       <div className="max-w-[1000px] mx-auto justify-center">
@@ -162,7 +78,10 @@ const Project = () => {
               className=" shadow-2xl shadow-[#040c16] rounded-md overflow-hidden hover:scale-105 duration-500 "
             >
               <h1 className="text-center font-semibold">{d.name}</h1>
-              <img className="h-44 w-full rounded-md" src={d.img} alt="img" />
+              <Link to={`/pdetails/${d.id}`}>
+                {" "}
+                <img className="h-44 w-full rounded-md" src={d.img} alt="img" />
+              </Link>
               <a href={d.dLink} target="_blank">
                 <button className="w-full   bg-[#344853] my-1 py-2 text-sm font-semibold hover:font-bold">
                   Demo
