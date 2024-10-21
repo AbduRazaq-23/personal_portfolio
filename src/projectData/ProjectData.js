@@ -6,6 +6,7 @@ import finance from "../assets/project/finance.jpg";
 import goFood from "../assets/project/gofood.png";
 import book from "../assets/project/book.jpg";
 import ecompic from "../assets/project/ecompic.png";
+import chatapp from "../assets/project/chatapp.png";
 
 // blog pic
 import homeAfter from "../assets/project/blogPic/homeAfter.png";
@@ -69,6 +70,13 @@ export const frontend = [
     img: ecompic,
     dLink: "https://eccomerece-ruddy.vercel.app/",
     cLink: "https://github.com/AbduRazaq-23/eccomerece",
+  },
+  {
+    id: 4,
+    name: "Note-App",
+    img: chatapp,
+    dLink: "https://note-app-eight-lemon.vercel.app/",
+    cLink: "https://github.com/AbduRazaq-23/note_app.git",
   },
 ];
 export const backend = [
