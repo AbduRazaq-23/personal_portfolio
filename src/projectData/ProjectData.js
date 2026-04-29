@@ -7,6 +7,7 @@ import goFood from "../assets/project/gofood.png";
 import book from "../assets/project/book.jpg";
 import ecompic from "../assets/project/ecompic.png";
 import chatapp from "../assets/project/chatapp.png";
+import site from "../assets/site.png";
 
 // blog pic
 import homeAfter from "../assets/project/blogPic/homeAfter.png";
@@ -14,6 +15,7 @@ import blogPage from "../assets/project/blogPic/blogPage.png";
 
 // import signUp from "../assets/project/blogPic/signUp.png";
 
+// MERN STACK DATA
 export const mernStack = [
   {
     id: 1,
@@ -26,6 +28,14 @@ export const mernStack = [
 
   {
     id: 2,
+    name: "Goritmi SaaS",
+    img: site,
+    dLink: "https://goritmi-saas-test-abdu-razaq.vercel.app/",
+    cLink: "https://github.com/AbduRazaq-23/goritmi-saas-test-abdu-razaq",
+    images: [site],
+  },
+  {
+    id: 3,
     name: "E-Commerce",
     img: ecom,
     dLink: "https://e-commerce-frontend-eosin-delta.vercel.app/",
@@ -33,7 +43,7 @@ export const mernStack = [
     imgClick: "",
   },
   {
-    id: 3,
+    id: 4,
     name: "FoodDelivery",
     img: goFood,
     dLink: "https://github.com/AbduRazaq-23/MERN-goFood",
@@ -41,7 +51,7 @@ export const mernStack = [
     imgClick: "",
   },
   {
-    id: 4,
+    id: 5,
     name: "BlogApp",
     img: homeAfter,
     dLink: "https://mern-blog-two-pied.vercel.app/",
@@ -49,6 +59,7 @@ export const mernStack = [
     images: [homeAfter, blogPage],
   },
 ];
+// FRONTEND DATA
 export const frontend = [
   {
     id: 1,
@@ -59,26 +70,35 @@ export const frontend = [
   },
   {
     id: 2,
+    name: "Goritmi SaaS",
+    img: site,
+    dLink: "https://goritmi-saas-test-abdu-razaq.vercel.app/",
+    cLink: "https://github.com/AbduRazaq-23/goritmi-saas-test-abdu-razaq",
+    images: [site],
+  },
+  {
+    id: 3,
     name: "E-Commerce",
     img: ecom,
     dLink: "https://e-commerce-frontend-eosin-delta.vercel.app/",
     cLink: "",
   },
   {
-    id: 3,
+    id: 4,
     name: "E-Commerce UI",
     img: ecompic,
-    dLink: "https://eccomerece-ruddy.vercel.app/",
+    dLink: "https://github.com/AbduRazaq-23/eccomerece",
     cLink: "https://github.com/AbduRazaq-23/eccomerece",
   },
   {
-    id: 4,
+    id: 5,
     name: "Note-App",
     img: chatapp,
     dLink: "https://note-app-eight-lemon.vercel.app/",
     cLink: "https://github.com/AbduRazaq-23/note_app.git",
   },
 ];
+// BACKEND DATA
 export const backend = [
   {
     id: 1,
