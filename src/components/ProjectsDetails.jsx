@@ -12,7 +12,7 @@ const ProjectsDetails = () => {
   }
 
   return (
-    <div className="bg-[#2e424d] text-gray-300 p-5 min-h-screen">
+    <div className="bg-[#051119] text-gray-300 p-5 min-h-screen">
       <h1 className="text-center font-bold my-5 underline">
         {project.name} Screens
       </h1>

@@ -4,7 +4,7 @@ import { mernStack, backend, frontend } from "../projectData/ProjectData";
 
 const Project = () => {
   return (
-    <div name="experience" className=" w-full py-20 bg-[#2e424d] text-gray-300">
+    <div name="experience" className=" w-full py-20 bg-[#051119] text-gray-300">
       <div className="max-w-[1000px] mx-auto justify-center">
         <div className="text-center mb-10">
           <h1 className="text-2xl font-semibold inline border-b-4 border-[#98dad9]">
@@ -28,12 +28,12 @@ const Project = () => {
               <h1 className="text-center font-semibold">{d.name}</h1>
               <img className="h-44 w-full rounded-md" src={d.img} alt="img" />
               <a href={d.dLink} target="_blank" rel="noopener noreferrer">
-                <button className="w-full bg-[#344853] my-1 py-2 text-sm font-semibold hover:font-bold">
+                <button className="w-full bg-[#051119] my-1 py-2 text-sm font-semibold hover:font-bold">
                   Demo
                 </button>
               </a>
               <a href={d.cLink} target="_blank" rel="noopener noreferrer">
-                <button className="w-full bg-[#344853] py-2 text-sm font-semibold hover:font-bold">
+                <button className="w-full bg-[#051119] py-2 text-sm font-semibold hover:font-bold">
                   Code
                 </button>
               </a>
@@ -57,7 +57,7 @@ const Project = () => {
               <img className="h-44 w-full rounded-md" src={d.img} alt="img" />
 
               <a href={d.cLink} target="_blank">
-                <button className="w-full   bg-[#344853] py-2  text-sm font-semibold hover:font-bold">
+                <button className="w-full   bg-[#051119] py-2  text-sm font-semibold hover:font-bold">
                   Code
                 </button>
               </a>
@@ -83,12 +83,12 @@ const Project = () => {
                 <img className="h-44 w-full rounded-md" src={d.img} alt="img" />
               </Link>
               <a href={d.dLink} target="_blank">
-                <button className="w-full   bg-[#344853] my-1 py-2 text-sm font-semibold hover:font-bold">
+                <button className="w-full   bg-[#051119] my-1 py-2 text-sm font-semibold hover:font-bold">
                   Demo
                 </button>
               </a>
               <a href={d.cLink} target="_blank">
-                <button className="w-full   bg-[#344853] py-2  text-sm font-semibold hover:font-bold">
+                <button className="w-full   bg-[#051119] py-2  text-sm font-semibold hover:font-bold">
                   Code
                 </button>
               </a>

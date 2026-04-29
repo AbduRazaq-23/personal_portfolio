@@ -3,7 +3,7 @@ import { MdEmail, MdPhone, MdLocationPin } from "react-icons/md";
 
 const Footer = () => {
   return (
-    <div className="w-full bg-[#2e424d] text-gray-300 p-1 border-t border-gray-300">
+    <div className="w-full bg-[#051119] text-gray-300 p-1 border-t border-gray-300">
       <ul
         className="max-w-[1000px] mx-auto flex flex-col md:flex-row items-center justify-center md:space-x-8  p-5
       "

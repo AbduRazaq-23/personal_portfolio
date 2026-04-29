@@ -59,7 +59,7 @@ const data = [
 
 const Skills = () => {
   return (
-    <div name="skills" className="w-full  bg-[#2e424d] text-gray-300 py-20 ">
+    <div name="skills" className="w-full  bg-[#051119] text-gray-300 py-20 ">
       {/* Container */}
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div className="text-center">

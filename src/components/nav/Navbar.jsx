@@ -13,7 +13,7 @@ const Nav = () => {
   };
 
   return (
-    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#2e424d] text-gray-300 z-10">
+    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#051119] text-gray-300 z-10">
       <div className="z-10">
         <img src={logo} alt="logo" className="w-14 h-18 " />
       </div>
@@ -60,7 +60,7 @@ const Nav = () => {
         className={
           !Nav
             ? "hidden"
-            : "md:hidden absolute top-0 left-0 w-full h-screen bg-[#2e424d] pt-24"
+            : "md:hidden absolute top-0 left-0 w-full h-screen bg-[#051119] pt-24"
         }
       >
         <ul className="flex gap-4 ml-5">
