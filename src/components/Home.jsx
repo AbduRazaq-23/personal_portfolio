@@ -9,7 +9,12 @@ const Home = () => {
       className="w-full h-[80%] md:h-[80%] pb-10 bg-[#051119] mx-auto pt-20"
     >
       <div className="grid md:grid-cols-2 max-w-[80%] m-auto">
-        <div className="flex flex-col justify-center items-center md:items-start w-full px-2 py-8">
+        <motion.div
+          initial={{ opacity: 0, scale: 0.9 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.9, ease: "easeOut" }}
+          className="flex flex-col justify-center items-center md:items-start w-full px-2 py-8"
+        >
           <p className=" text-[#98dad9] font-bold xs:pt-10">Hi, My Name is</p>
           <h1 className="py-3 text-3xl md:text-5xl font-bold text-[#eaebed]">
             ABDU RAZAQ
@@ -17,7 +22,7 @@ const Home = () => {
           <p className="text-center md:text-left md:text-2xl text-[#eaebed]">
             Software Engineer & MERN Stack Developer
           </p>
-        </div>
+        </motion.div>
 
         <motion.div
           initial={{ opacity: 0, y: 40 }}
