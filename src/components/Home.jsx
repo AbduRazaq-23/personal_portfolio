@@ -1,5 +1,6 @@
 import React from "react";
 import pic from "../assets/ar2.jpg";
+import { motion } from "framer-motion";
 
 const Home = () => {
   return (
@@ -13,18 +14,24 @@ const Home = () => {
           <h1 className="py-3 text-3xl md:text-5xl font-bold text-[#eaebed]">
             ABDU RAZAQ
           </h1>
-          <p className=" md:text-2xl text-[#eaebed]">
+          <p className="text-center md:text-left md:text-2xl text-[#eaebed]">
             Software Engineer & MERN Stack Developer
           </p>
         </div>
 
-        <div className=" w-[60%] md:h-[80%]  mx-auto bg-[#134242]  rotate-3 py-5 rounded-xl md:mt-14 h-100 relative ">
-          <img
-            className=" w-full h-full object-cover  rounded-xl -rotate-3"
-            src={pic}
-            alt="abdurazaq"
-          />
-        </div>
+        <motion.div
+          initial={{ opacity: 0, y: 40 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, ease: "easeOut" }}
+        >
+          <div className=" w-[60%] md:h-[80%]  mx-auto bg-[#134242]  rotate-3 py-5 rounded-xl md:mt-14 h-100 relative ">
+            <img
+              className=" w-full h-full object-cover  rounded-xl -rotate-3"
+              src={pic}
+              alt="abdurazaq"
+            />
+          </div>
+        </motion.div>
       </div>
     </div>
   );
