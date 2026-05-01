@@ -8,6 +8,13 @@ import book from "../assets/project/book.jpg";
 import ecompic from "../assets/project/ecompic.png";
 import chatapp from "../assets/project/chatapp.png";
 import site from "../assets/site.png";
+import gym1 from "../assets/project/gym-landing/gym1.png";
+import gym2 from "../assets/project/gym-landing/gym2.png";
+import gym3 from "../assets/project/gym-landing/gym3.png";
+import gym4 from "../assets/project/gym-landing/gym4.png";
+import gym5 from "../assets/project/gym-landing/gym5.png";
+import gym6 from "../assets/project/gym-landing/gym6.png";
+import gym7 from "../assets/project/gym-landing/gym7.png";
 
 // blog pic
 import homeAfter from "../assets/project/blogPic/homeAfter.png";
@@ -78,20 +85,28 @@ export const frontend = [
   },
   {
     id: 3,
+    name: "GymFit",
+    img: gym1,
+    dLink: "https://gym-landing-theta.vercel.app/",
+    cLink: "https://github.com/AbduRazaq-23/gym-landing",
+    images: [gym1, gym2, gym3, gym4, gym5, gym6, gym7],
+  },
+  {
+    id: 4,
     name: "E-Commerce",
     img: ecom,
     dLink: "https://e-commerce-frontend-eosin-delta.vercel.app/",
     cLink: "",
   },
   {
-    id: 4,
+    id: 5,
     name: "E-Commerce UI",
     img: ecompic,
     dLink: "https://github.com/AbduRazaq-23/eccomerece",
     cLink: "https://github.com/AbduRazaq-23/eccomerece",
   },
   {
-    id: 5,
+    id: 6,
     name: "Note-App",
     img: chatapp,
     dLink: "https://note-app-eight-lemon.vercel.app/",
