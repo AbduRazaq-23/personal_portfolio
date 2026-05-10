@@ -5,7 +5,7 @@ import insta from "../assets/project/instagram.jpg";
 import finance from "../assets/project/finance.jpg";
 import goFood from "../assets/project/gofood.png";
 import book from "../assets/project/book.jpg";
-import ecompic from "../assets/project/ecompic.png";
+import nexora from "../assets/project/nexora.png";
 import chatapp from "../assets/project/chatapp.png";
 import site from "../assets/site.png";
 import gym1 from "../assets/project/gym-landing/gym1.png";
@@ -100,10 +100,10 @@ export const frontend = [
   },
   {
     id: 5,
-    name: "E-Commerce UI",
-    img: ecompic,
-    dLink: "https://github.com/AbduRazaq-23/eccomerece",
-    cLink: "https://github.com/AbduRazaq-23/eccomerece",
+    name: "SaaS NEXORA",
+    img: nexora,
+    dLink: "https://nexora-inky-zeta.vercel.app/",
+    cLink: "https://github.com/AbduRazaq-23/NEXORA",
   },
   {
     id: 6,
